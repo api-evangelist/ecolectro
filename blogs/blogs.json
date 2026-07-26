@@ -1,0 +1,21 @@
+{
+  "repo": "ecolectro",
+  "feeds": [
+    {
+      "source": "https://ecolectro.com/feed/",
+      "feed_url": "https://ecolectro.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://ecolectro.com/contact/",
+      "feed_url": "https://ecolectro.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}

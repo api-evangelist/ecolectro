@@ -1,7 +1,25 @@
 aid: ecolectro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ecolectro.png
 name: Ecolectro
-description: Ecolectro is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ecolectro is an Ithaca, New York materials-science company developing alkaline exchange
+  membrane (AEM) technology for green hydrogen production. Its patented ionomers and membranes
+  combine the low-cost, non-precious-metal chemistry of traditional alkaline electrolysis with the
+  performance and efficiency of PEM electrolyzers, targeting roughly a 78% reduction in electrolyzer
+  stack cost and a 33% reduction in the overall levelized cost of green hydrogen. A Cornell University
+  spin-out backed by Techstars, Ecolectro partners with industrial gas and energy companies to
+  manufacture and deploy its membrane materials at scale. Ecolectro publishes no public API or
+  developer surface; this profile captures its corporate identity and domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ecolectro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Green Hydrogen
+- Electrolyzers
+- Clean Energy
+- Materials Science
+- Hydrogen
+- Sustainability
+- Cleantech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ecolectro-domain-security.yml
 - type: Website
   url: https://ecolectro.com/
+- type: About
+  url: https://ecolectro.com/about-us/
+- type: Support
+  url: https://ecolectro.com/contact/
+- type: Blog
+  url: https://ecolectro.com/insights-news/
+- type: PrivacyPolicy
+  url: https://ecolectro.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ecolectro-inc-/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
