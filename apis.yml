@@ -32,6 +32,9 @@ description: Ecolectro is an Ithaca, New York materials-science company developi
   manufacture and deploy its membrane materials at scale. Ecolectro publishes no public API or
   developer surface; this profile captures its corporate identity and domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ecolectro/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Ecolectro publishes no public API or developer surface; this profile captures its corporate identity and domain security posture."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
